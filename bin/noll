@@ -1,0 +1,6 @@
+#!/bin/sh
+
+noll=vendor/noll
+bin=$noll/bin
+target=$noll/target
+mkdir -p $target
