@@ -1,0 +1,6 @@
+prebuilt_etc {
+    name: "noll_etc_hosts",
+    src: "target/hosts",
+    filename: "hosts",
+    overrides: ["etc_hosts"],
+}

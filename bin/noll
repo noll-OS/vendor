@@ -4,3 +4,6 @@ noll=vendor/noll
 bin=$noll/bin
 target=$noll/target
 mkdir -p $target
+
+echo Generating $target/hosts...
+$bin/adblock > $target/hosts
