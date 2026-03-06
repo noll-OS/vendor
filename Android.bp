@@ -1,1 +1,7 @@
 soong_namespace {}
+
+prebuilt_etc {
+    name: "etc_hosts",
+    src: "target/hosts",
+    filename: "hosts",
+}
